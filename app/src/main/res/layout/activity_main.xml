@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/back">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:id="@+id/l_iconimg"
+    android:layout_margin="10dp"
+    android:layout_centerHorizontal="true"
+    ></ImageView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:hint="Title"
+        android:id="@+id/l_title"
+        android:textAlignment="gravity"
+        android:layout_below="@id/l_iconimg"
+        android:textColorHint="@color/edtText"
+        android:textColor="@color/edtText"
+        android:textStyle="italic|bold"
+        ></EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:hint="Description"
+        android:id="@+id/l_desc"
+        android:textAlignment="gravity"
+        android:layout_below="@id/l_title"
+        android:textColorHint="@color/edtText"
+        android:textColor="@color/edtText"
+        android:textStyle="italic|bold"
+        ></EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:hint="Date of addition - Date of completion(DD/MM/YY)"
+        android:id="@+id/l_dates"
+        android:textAlignment="gravity"
+        android:textColor="@color/edtText"
+        android:layout_below="@id/l_desc"
+        android:textColorHint="@color/edtText"
+        ></EditText>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_submit"
+        android:hint="Add to list"
+        android:layout_below="@id/l_dates"
+        android:background="@color/edtText"
+        android:textStyle="italic|bold"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:layout_margin="1dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:clickable="true"
+        android:focusable="true"
+        ></Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_viewList"
+        android:hint="View List"
+        android:layout_below="@id/l_submit"
+        android:background="@color/edtText"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        ></Button>
+        <!-- <EditText
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:layout_margin="10dp"
+             android:hint="Enter title to delete"
+             android:id="@+id/l_tileToDel"
+             android:textAlignment="center"
+             android:layout_below="@id/l_viewList"
+             android:textColorHint="@color/edtText"
+             android:textColor="@color/edtText"
+             ></EditText>
+         <Button
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/l_delete"
+             android:hint="Delete Item"
+             android:layout_below="@id/l_tileToDel"
+             android:background="@color/edtText"
+             android:textStyle="italic|bold"
+             android:textColor="@android:color/white"
+             android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+             android:clickable="true"
+             android:focusable="true"
+             android:layout_margin="1dp"
+             ></Button>
+         -->
+
+    </RelativeLayout>
+
+</ScrollView>

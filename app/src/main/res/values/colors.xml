@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F9AA33</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="back">#232F34</color>
+    <color name="edtText">#F9AA33</color>
+    <color name="lavender">#DCD0FF</color>
+    <color name="listViewBg">#442C2E</color>
+    <color name="secon">#65C44A</color>
+</resources>
