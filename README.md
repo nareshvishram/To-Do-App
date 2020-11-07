@@ -1,5 +1,5 @@
 # To-Do-App
-#### Simple To Do android app where you can add new items and can delete items that have been completed by you.
+Simple To Do android app where you can add new items and can delete items that have been completed by you.
 
 #### Few Screenshots from this APP
 ### 1. Insert Task Here 
